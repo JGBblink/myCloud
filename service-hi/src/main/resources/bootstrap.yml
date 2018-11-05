@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: service-hi
+  redis:
+    host: '111.231.204.158'
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-wait: -1
+      max-idle: 8
